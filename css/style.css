@@ -216,6 +216,7 @@ figure {
   font-weight: 700;
 }
 
+
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-tc h2 {
     font-size: 60px;
@@ -404,7 +405,7 @@ figure {
 #fh5co-primary-menu > li > .sf-with-ul:after {
   border: none !important;
   font-family: 'icomoon';
-  speak: none;
+  /*speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -430,7 +431,7 @@ figure {
 #fh5co-primary-menu > li > ul li > .sf-with-ul:after {
   border: none !important;
   font-family: 'icomoon';
-  speak: none;
+  /*speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -583,6 +584,14 @@ figure {
 
 #fh5co-couple h3 {
   font-size: 30px;
+}
+
+#fh5co-countdown h2{
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 300 !important;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
