@@ -77,6 +77,8 @@ figure {
   z-index: 9999999;
 }
 
+
+
 .stuck {
   position: fixed !important;
   top: 0 !important;
@@ -366,6 +368,12 @@ figure {
   float: left;
 }
 
+#fh5co-logo img {
+width: 50px;
+height: 50px;
+margin-right: 7px;
+}
+
 #fh5co-logo span {
   font-weight: 700;
 }
@@ -575,11 +583,14 @@ figure {
 }
 
 #fh5co-couple img {
-  margin-bottom: 20px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
 }
 
 #fh5co-couple h3 {
@@ -906,26 +917,32 @@ figure {
 }
 
 #footer {
-  background: rgb(87, 3, 1);
+  background: white;
   padding: 60px 0 40px;
 }
 
 #footer p {
-  color: white;
+  color: rgb(87, 3, 1);
   font-size: 14px;
 }
 
 #footer p a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(87, 3, 1, 0.5);
 }
 
 #footer p a:hover, #footer p a:active, #footer p a:focus {
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: rgba(87, 3, 1, 0.9) !important;
 }
 
 #footer h2 {
-  color: #fff;
+  color: rgb(87, 3, 1);
   font-size: 60px;
+}
+
+#footer img {
+  width: 145px;
+  height: 130px;
+  margin-bottom: 50px;
 }
 
 .btn {
