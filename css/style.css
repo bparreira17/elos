@@ -369,7 +369,7 @@ figure {
 }
 
 #fh5co-logo img {
-width: 50px;
+width: 60px;
 height: 50px;
 margin-right: 7px;
 }
@@ -404,6 +404,7 @@ margin-right: 7px;
 
 #fh5co-menu-wrap .sf-menu a {
   padding: 1em .75em;
+  margin-top: 10px;
 }
 
 #fh5co-primary-menu > li > ul li.active > a {
@@ -545,7 +546,7 @@ margin-right: 7px;
 #fh5co-guest,
 #fh5co-gallery,
 .fh5co-content-section {
-  padding: 7em 0;
+  padding: 4em 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -563,7 +564,7 @@ margin-right: 7px;
 }
 
 .fh5co-section-gray {
-  background: #F6FAF7;
+  background: white;
 }
 
 .heading-section {
@@ -587,8 +588,6 @@ margin-right: 7px;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  width: 400px;
-  height: 400px;
   display: block;
   margin: 0 auto;
 }
@@ -789,6 +788,8 @@ margin-right: 7px;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  width: 212px;
+  height: 212px;
 }
 
 .groom-men h3 {
