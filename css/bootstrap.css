@@ -1421,7 +1421,6 @@ img {
 }
 
 .img-responsive {
-  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -6913,7 +6912,7 @@ button.close {
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
-  line-break: auto;
+  -ms-line-break: auto;
   line-height: 1.42857;
   text-align: left;
   text-align: start;
@@ -7047,7 +7046,7 @@ button.close {
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
-  line-break: auto;
+  -ms-line-break: auto;
   line-height: 1.42857;
   text-align: left;
   text-align: start;
